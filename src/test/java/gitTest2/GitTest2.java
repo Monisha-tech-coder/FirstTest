@@ -26,6 +26,6 @@ public class GitTest2 {
 		
 		File src=((TakesScreenshot)wd).getScreenshotAs(OutputType.FILE);
 		FileUtils.copyFile(src, new File("C:/Users/lenovo/workspace/FirstProject/A13_GitTest/screenshot/sample1.jpeg"));
-	int i=1/0; //will produce compilation error
+	//int i=1/0; will produce compilation error
 	}
 }
